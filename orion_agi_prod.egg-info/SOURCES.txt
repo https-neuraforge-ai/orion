@@ -1,3 +1,4 @@
+README.md
 setup.py
 orion_agi_prod.egg-info/PKG-INFO
 orion_agi_prod.egg-info/SOURCES.txt
