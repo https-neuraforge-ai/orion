@@ -1,0 +1,13 @@
+cat > .gitignore << 'EOL'
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.idea/
+.DS_Store
+*.swp
+*.swo
+EOL

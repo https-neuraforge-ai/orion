@@ -1,0 +1,13 @@
+mkdir -p ~/orion_agi_prod/src/core/
+cat > ~/orion_agi_prod/src/core/director_orquesta.py << 'EOL'
+class DirectorOrquesta:
+    def __init__(self):
+        self.resultados = {}
+
+    def ejecutar_flujo(self, datos):
+        self.resultados["nexus_mente"] = {
+            "modo_contenido": "informativo",
+            "canales": ["telegram"],
+            "agresividad": "media"
+        }
+EOL

@@ -1,0 +1,15 @@
+[0;1;31m●[0m orion_agi.service
+     Loaded: [0;1;31mnot-found[0m (Reason: Unit orion_agi.service not found.)
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Sun 2025-11-09 22:30:15 CST; 4min 37s ago
+   Main PID: 4310 (code=exited, status=3)
+
+Nov 09 22:30:15 iZ4hf4m08a7ggftt6w2zboZ gunicorn[4319]:   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+Nov 09 22:30:15 iZ4hf4m08a7ggftt6w2zboZ gunicorn[4319]:   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+Nov 09 22:30:15 iZ4hf4m08a7ggftt6w2zboZ gunicorn[4319]:   File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+Nov 09 22:30:15 iZ4hf4m08a7ggftt6w2zboZ gunicorn[4319]: ModuleNotFoundError: No module named 'app'
+Nov 09 22:30:15 iZ4hf4m08a7ggftt6w2zboZ gunicorn[4319]: [2025-11-09 22:30:15 +0800] [4319] [INFO] Worker exiting (pid: 4319)
+Nov 09 22:30:15 iZ4hf4m08a7ggftt6w2zboZ gunicorn[4310]: [2025-11-09 22:30:15 +0800] [4310] [ERROR] Worker (pid:4319) exited with code 3
+Nov 09 22:30:15 iZ4hf4m08a7ggftt6w2zboZ gunicorn[4310]: [2025-11-09 22:30:15 +0800] [4310] [ERROR] Shutting down: Master
+Nov 09 22:30:15 iZ4hf4m08a7ggftt6w2zboZ gunicorn[4310]: [2025-11-09 22:30:15 +0800] [4310] [ERROR] Reason: Worker failed to boot.
+Nov 09 22:30:15 iZ4hf4m08a7ggftt6w2zboZ systemd[1]: [0;1;39m[0;1;31m[0;1;39morion_agi.service: Main process exited, code=exited, status=3/NOTIMPLEMENTED[0m
+Nov 09 22:30:15 iZ4hf4m08a7ggftt6w2zboZ systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185morion_agi.service: Failed with result 'exit-code'.[0m

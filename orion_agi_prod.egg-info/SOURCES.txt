@@ -1,0 +1,8 @@
+setup.py
+orion_agi_prod.egg-info/PKG-INFO
+orion_agi_prod.egg-info/SOURCES.txt
+orion_agi_prod.egg-info/dependency_links.txt
+orion_agi_prod.egg-info/top_level.txt
+src/__init__.py
+src/core/__init__.py
+src/core/director_orquesta.py
